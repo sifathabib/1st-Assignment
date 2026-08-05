@@ -12,7 +12,7 @@
     background-color: #1D4ED8;
     color: #ffffff;
     border: none;
-    padding: 10px 22px;
+    padding: 12px 22px;
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
@@ -45,3 +45,40 @@
 .nav-links li a:hover{
     color: #1D4ED8;
 }
+
+/* hero section start */
+.hero-parent-root {
+    background-image: url('/assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.h-overlay {
+    background: rgba(31, 27, 32, 0.692);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.h-content {
+    max-width: 850px;
+    color: #ffffff;
+    width: 100%;
+    padding: 150px 0;
+}
+
+.h-content h1 {
+    font-size: 80px;
+    font-weight: 650;
+    margin-bottom: 16px;
+    font-family: "Inter", sans-serif;
+}
+.h-content p {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 300px;
+}
+/* hero section end */
