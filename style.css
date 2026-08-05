@@ -82,3 +82,64 @@
     margin-bottom: 300px;
 }
 /* hero section end */
+
+/* speaker section start */
+.about-speakers {
+    padding: 100px 0px;
+}
+.about-speakers .speakers-head {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 800;
+    color: #000102;
+    margin-bottom: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.box-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    
+}
+.box:hover {
+    cursor: pointer;
+}
+.box img {
+    width: 100%;
+    height: 260px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.track-label{
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #2563EB;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    font-size: 20px;
+    color: #0D1B2A;
+    margin-bottom: 4px;
+    font-family: "Inter", sans-serif;
+    padding: px 0px;
+}
+
+.box p {
+    color: #575757;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+/* speaker section end */
