@@ -1,0 +1,1 @@
+Create a clean, two-column HTML/CSS section for DevConf 2026 featuring "Stay Connected with DevConf 2026" and 3 event highlights on the left, and a "Get Conference Updates" newsletter signup card with Name/Email inputs and a blue button on the right.
