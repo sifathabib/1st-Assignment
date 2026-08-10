@@ -181,6 +181,9 @@
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
+.pr-head-section{
+    margin-bottom: 30px;
+}
 .feature-card{
     background-color: #0f172a;
     color: #ffffff;
@@ -196,9 +199,7 @@
 .feature-card ul li{
     color: #ffffff;
 }
-.pr-head-section{
-    margin-bottom: 30px;
-}
+
 
 .pr-card ul{
     padding-left: 16px;
@@ -216,3 +217,68 @@
 }
 
 /* pricing section end */
+/* footer start */
+.f-root {
+    background-color: #070d19;
+    color: #ffffff;
+    padding: 40px 0 30px;
+}
+
+.f-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.f-left .logo {
+    color: #ffffff;
+}
+.f-left .f-logo{
+    color: blue;
+}
+.f-left .year{
+    margin-left: 35px;
+}
+.f-icon {
+    display: flex;
+    gap: 16px;
+}
+
+.f-icon span {
+    width: 40px;
+    height: 40px;
+    background-color: #1e293b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.f-icon span:hover {
+    background-color: #2563eb;
+}
+
+.f-divider {
+    border: none;
+    border-top: 1px solid #1e293b;
+    margin-bottom: 30px;
+}
+
+.f-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.f-links {
+    display: flex;
+    gap: 20px;
+}
+.f-links a:hover {
+    color: #94a3b8;
+}
+/* footer end */
